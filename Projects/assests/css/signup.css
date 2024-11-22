@@ -1,0 +1,65 @@
+.form .input-box {
+    height: 40px;
+    margin: 20px 0;
+}
+
+#first {
+    position: absolute;
+    right: 54px;
+    top: 18.7%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+#last {
+    position: absolute;
+    right: 54px;
+    top: 27.6%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+#user {
+    position: absolute;
+    right: 54px;
+    top: 36.6%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+#e {
+    position: absolute;
+    right: 54px;
+    top: 45.4%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+#show-pass {
+    position: absolute;
+    right: 54px;
+    top: 54.3%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#show-confirm {
+    position: absolute;
+    right: 54px;
+    top: 63.3%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form .radio-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 23%;
+    width: 77%;
+  }
+
+  #terms {
+    font-weight: bold;
+  }

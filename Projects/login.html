@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn - Site</title>
+    <link href="assests/img/icon.png" rel="icon">
+    <link href="assests/css/login.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="form">
+        <form>
+            <h1>Login</h1>
+
+            <div class="input-box">
+                <input type="text" name="username-box" id="username" autocomplete="on" placeholder="Username" required>
+                <i class='bx bx-user' id="user-ico"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="password-box" id="password" autocomplete="on" placeholder="Password" required>
+                <i class='bx bxs-lock-alt' id="lock-ico"></i>
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="remember-me" id="remember-me"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <div class="link">
+                <p>Don't have an account? <a href="signup">Register</a> </p>
+            </div>
+
+        </form>
+    </div>
+    <script src="assests/js/login.js"></script>
+</body>
+
+</html>
