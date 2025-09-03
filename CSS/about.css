@@ -25,6 +25,9 @@
     margin-bottom: 1rem;
     line-height: 1.2;
 }
+.about-cta {
+    margin: 6rem auto;
+}
 
 .about-subtitle {
     font-size: 1.3rem;
