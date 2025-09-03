@@ -591,6 +591,10 @@ a {
         transform: translateY(-7px) rotate(-45deg);
     }
 
+    .hero-container {
+        margin: 6rem auto;
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -639,6 +643,10 @@ a {
 
     .title-role {
         font-size: 1.5rem;
+    }
+
+    .hero-container {
+        margin: 6rem auto;
     }
 
     .hero-description {
