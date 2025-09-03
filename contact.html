@@ -49,9 +49,9 @@
                 <li class="nav-item">
                     <a href="skills.html" class="nav-link">Skills</a>
                 </li>
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                     <a href="projects.html" class="nav-link">Projects</a>
-                </li> -->
+                </li>
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link active">Contact</a>
                 </li>
@@ -107,7 +107,8 @@
                             <p class="form-subtitle">Fill out the form below and I'll get back to you within 24 hours</p>
                         </div>
                         
-                        <form class="contact-form" id="contact-form" novalidate>
+                        <form class="contact-form" id="contact-form" novalidate action="https://api.web3forms.com/submit" method="POST">
+                             <input type="hidden" name="access_key" value="284644f6-0666-41dc-87f9-7c45c524059d">
                             <div class="form-row">
                                 <div class="form-group">
                                     <label for="firstName" class="form-label">First Name *</label>
