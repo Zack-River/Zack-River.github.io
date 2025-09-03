@@ -242,7 +242,7 @@ a {
 .hero-container {
     width: 100%;
     max-width: var(--container-max-width);
-    margin: 0 auto;
+    margin: 6rem auto;
     padding: 0 1.5rem;
 }
 
@@ -590,11 +590,7 @@ a {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-7px) rotate(-45deg);
     }
-
-    .hero-container {
-        margin: 6rem auto;
-    }
-
+    
     .hero-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -643,10 +639,6 @@ a {
 
     .title-role {
         font-size: 1.5rem;
-    }
-
-    .hero-container {
-        margin: 6rem auto;
     }
 
     .hero-description {
