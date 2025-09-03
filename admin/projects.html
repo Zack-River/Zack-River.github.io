@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin | Projects</title>
+  <link rel="stylesheet" href="../CSS/main.css">
+  <link rel="stylesheet" href="../CSS/dark-mode.css">
+  <link rel="stylesheet" href="./CSS/admin.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <h2 class="sidebar-logo">Admin</h2>
+    <nav class="sidebar-menu">
+      <a href="./index.html">🏠 Dashboard</a>
+      <a href="./projects.html" class="active">📂 Projects</a>
+      <a href="./services.html">⚙️ Services</a>
+      <a href="./messages.html">✉️ Messages</a>
+    </nav>
+  </aside>
+
+  <main class="dashboard">
+    <header class="dashboard-header">
+      <h1>Manage Projects</h1>
+      <button class="btn btn-primary">+ Add Project</button>
+    </header>
+
+    <div class="table-wrapper">
+      <table class="dashboard-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Status</th>
+            <th>Tech</th>
+            <th>Links</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Portfolio Website</td>
+            <td><span class="badge badge-success">Complete</span></td>
+            <td>Node.js, MongoDB</td>
+            <td>
+              <a href="#">GitHub</a> | <a href="#">Live</a>
+            </td>
+            <td>
+              <button class="btn btn-secondary btn-sm">Edit</button>
+              <button class="btn btn-danger btn-sm">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</body>
+</html>
