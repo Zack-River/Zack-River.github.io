@@ -185,6 +185,27 @@ a {
     z-index: -1;
 }
 
+.hero-slogan {
+  font-family: var(--font-primary);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  color: var(--text-primary);
+  line-height: 1.15;
+}
+
+.slogan-accent {
+  color: var(--primary-color);
+}
+
+/* smaller tagline under the slogan */
+.hero-tagline {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
 .floating-shapes {
     position: absolute;
     width: 100%;
